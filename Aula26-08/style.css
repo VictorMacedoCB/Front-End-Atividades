@@ -1,10 +1,28 @@
+
+*{ /* CSS RESET */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: #518CFC;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1em;
-    color: #383d42;
+    color: white;
+    
 }
 
 h1#principal { 
     text-align: center;
+}
+
+.box {
+    margin: 40px;
+    border: 2px solid black;
+    padding: 50px ;
 }
